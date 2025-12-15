@@ -82,4 +82,3 @@ def gu_caffe_menu():
     print("Thank you for visiting Gu Caffe!")
 
 gu_caffe_menu()
-print("Go fuck your self")
