@@ -42,7 +42,7 @@ def gu_caffe_menu():
             print(f"{i + 1}. {item[0]:<25} {item[1]:.2f} EGP")
         
         print("-" * 40)
-        print("Type the number to order, or '0' to finish.")
+        print("Type the number to order, or 'exit' to finish.")
         
         choice = input("Enter choice: ")
 
