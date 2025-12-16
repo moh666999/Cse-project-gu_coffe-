@@ -39,7 +39,7 @@ def gu_caffe_menu():
     while True:
         print("\n--- MENU ---")
         for i, item in enumerate(menu):
-            print(f"{i + 1}. {item[0]:<25} {item[1]:.2f} EGP")
+            print(f"{i + 1}. {item[0]:<25} {item[1]} EGP")
         
         print("-" * 40)
         print("Type the number to order, or 'exit' to finish.")
@@ -71,13 +71,13 @@ def gu_caffe_menu():
         for item in order_list:
             name = item[0]
             price = item[1]
-            print(f"{name:<25} {price:.2f} EGP")
+            print(f"{name:<25} {price} EGP")
             total_price += price
     else:
         print("No items purchased.")
         
     print("-" * 40)
-    print(f"TOTAL DUE:{' '*10}{total_price:.2f} EGP")
+    print(f"TOTAL DUE:{' '*10}{total_price} EGP")
     print("=" * 40)
     print("Thank you for visiting Gu Caffe!")
 
