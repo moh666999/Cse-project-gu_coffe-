@@ -37,7 +37,7 @@ def gu_caffe_menu():
     print("-" * 40)
 
     while True:
-        print("\n--- MENU ---")
+        print("--- MENU ---")
         for i, item in enumerate(menu):
             print(f"{i + 1}. {item[0]:<25} {item[1]} EGP")
         
